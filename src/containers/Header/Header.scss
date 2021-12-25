@@ -1,0 +1,18 @@
+.header{
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-linkers{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  &-extra{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
